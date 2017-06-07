@@ -131,8 +131,8 @@ $o.hover( function(e){
   $('#logo').addClass('animated bounceIn').attr("src", data2[id].logo);
   setTimeout(function(){ $('#logo').removeClass("animated bounceIn"); }, 300);//Actualiza la animación
   $(".text-seven").text(data2[id].text1);
-  $(".compras").text(data2[id].text1);
-  $(".compras-text").text(data2[id].text1);
+  $(".compras").text(data2[id].title);
+  $(".compras-text").text(data2[id].text2);
   $('#compras').attr("src", data2[id].img);
   $(".f1").css("background-image", `url( ${data2[id].fondo})`);
 
