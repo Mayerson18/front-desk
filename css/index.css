@@ -21,7 +21,7 @@ a{/*Custom a*/
 h4{
   margin-bottom: 0px;
 }
-
+/*SECTION 2 ***********************/
 .button{
   cursor: pointer;
   border-radius: 4px;
@@ -109,6 +109,7 @@ h4{
 }
 /*SECTION 2 *************************/
 
+/* SECTION 1   ***************************/
 .oval{
   position: relative;
   left: 36%;
@@ -184,6 +185,7 @@ h4{
 
 .img-items{
   opacity: .7;
+  width: 100%;
 }
 
 .title-items{
@@ -200,3 +202,4 @@ h4{
   color: #909090;
   font-size: 14px;
 }
+/* SECTION 1   ***************************/
