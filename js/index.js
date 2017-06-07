@@ -12,7 +12,7 @@ var data = [
    subTitle: 'Algunas Funciones',
    functions: ['coki1','coki2','coki3'],
    button: 'SOLICITA MAS INFORMACIÓN',
-   url: 'img/logo-blue.png'
+   url: 'img/l2.png'
  },{
    title: 'COMUNICATION',
    content: 'Front Desk, con sus más de 160 opciones entre operativas, configuración y reportes, es a nivel de hoteles el más importante entre los módulos. Una vez configurado el Front Parámetros, este módulo nos permite de una forma muy eficiente controlar las operaciones diarias con reportes muy útiles y facilidad de manipulación de grandes cantidades de información. Front Desk contiene el modulo de Front Parámetro.',
@@ -108,7 +108,7 @@ $a.hover( function(e){
 /*SECTION 2 *************************/
 var data2 = [
   {
-    logo: "img/logo-blue.png",
+    logo: "img/l1.png",
     text1: "Front Desk, con sus más de 160 opciones entre operativas, configuración y reportes, es a nivel de hoteles el más importante entre los módulos. Una vez configurado el Front Parámetros, este módulo nos permite de una forma muy eficiente controlar las operaciones diarias con reportes muy útiles y facilidad de manipulación de grandes cantidades de información. Front Desk contiene el modulo de Front Parámetros independiente al operativo, ya que está enfocado a los departamentos de mercadeo y recepción (Jefe de Recepción).",
     title: "COMPRAS",
     text2: "Front Desk, con sus más de 160 opciones entre operativas, configuración y reportes, es a nivel de hoteles el más importante entre los módulos. Una vez configurado el Front Parámetros, este módulo nos permite de u",
@@ -116,13 +116,21 @@ var data2 = [
     fondo: "img/f1.png"
   },
   {
-    logo: "img/compras.png",
+    logo: "img/l2.png",
     text1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    title: "COMPRAS",
+    title: "FRONT DESK",
     text2: "Front Desk, con sus más de 160 opciones entre operativas, configuración y reportes, es a nivel de hoteles el más importante entre los módulos. Una vez configurado el Front Parámetros, este módulo nos permite de u",
     img: "img/compras.png",
-    fondo: "img/logo-blue.png"
+    fondo: "img/f2.png"
   },
+  {
+    logo: "img/l3.png",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "COMUNICATION",
+    text2: "Front Desk, con sus más de 160 opciones entre operativas, configuración y reportes, es a nivel de hoteles el más importante entre los módulos. Una vez configurado el Front Parámetros, este módulo nos permite de u",
+    img: "img/compras.png",
+    fondo: "img/f3.png"
+  }
 ];
 
 $o.hover( function(e){
