@@ -365,3 +365,36 @@ h4{
 }
 
 /*SECTION 3   *****************************/
+
+
+@media(max-width:768px){
+
+  .items-fondo{
+    left: 0px;
+  }
+
+  .img-fondo{
+    margin-top: 26%;
+  }
+
+  .texto-fondo{
+    font-size: 15px;
+  }
+
+  .boton-fondo{
+    left: 25%;
+    font-size: 11px;
+  }
+
+  #logo{
+    width: 100%;
+  }
+
+  .body-pre-contact{
+    width: 100%;
+  }
+
+  .box-contact{
+    position: static;
+  }
+}
