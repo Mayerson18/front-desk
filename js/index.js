@@ -47,7 +47,7 @@ $o.hover( function(e){
   var id = (parseInt(this.dataset.id));
   $('.efecto').addClass('animated bounceIn');
   $("#logo").attr("src", data[id].logo);
-  setTimeout(function(){ $('.efecto').removeClass("animated bounceIn"); }, 300);//Actualiza la animación
+  setTimeout(function(){ $('.efecto').removeClass("animated bounceIn"); }, 2000);//Actualiza la animación
   $(".text-seven").text(data[id].text1);
   $(".compras").text(data[id].title);
   $(".compras-text").text(data[id].text2);
@@ -167,6 +167,6 @@ $a.hover( function(e){
   $('.content-sub-title').text(data2[id].subTitle);
   var li = data2[id].functions.map( e => `<li class="function">${e}</li>`);
   $('#img').addClass('animated fadeInRight').attr("src", data2[id].url);
-  setTimeout(function(){ $('#img').removeClass("animated fadeInRight"); }, 300);//Actualiza la animación
+  setTimeout(function(){ $('#img').removeClass("animated fadeInRight"); }, 2000);//Actualiza la animación
   $("#function").html(li);
 });

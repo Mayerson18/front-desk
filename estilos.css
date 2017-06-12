@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - estilos.scss
+
+Backtrace:
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:484:in `read'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin.rb:109:in `method_missing'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+/home/mayersito/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+/home/mayersito/.rvm/gems/ruby-2.3.1/bin/sass:23:in `load'
+/home/mayersito/.rvm/gems/ruby-2.3.1/bin/sass:23:in `<main>'
+/home/mayersito/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/home/mayersito/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - estilos.scss"; }

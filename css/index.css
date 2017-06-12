@@ -394,7 +394,40 @@ h4{
     width: 100%;
   }
 
-  .box-contact{
-    position: static;
+  .box-contact,.c1{
+    position: static!important;
   }
+}
+
+.c1{
+  position: absolute;
+  top: 322%;
+}
+
+#img {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+.efecto{
+  -webkit-animation-duration: .5s;
+  -webkit-animation-delay: .5s;
+}
+
+.av{
+  padding-left: 22px !important;
+}
+
+.title-avatar{
+  font-family: Helvetica;
+  color: #393838;
+  font-size: 18px;
+}
+
+.p-avatar{
+  font-style: oblique;
+  font-family: Helvetica;
+  color: #838181;
+  font-size: 14px;
+}
 }
